@@ -1,0 +1,5 @@
+bootcode.bin
+bootsig.bin
+fixup.dat
+start.elf
+kernel*.img
