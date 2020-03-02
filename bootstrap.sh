@@ -37,6 +37,7 @@ cat <<EOF > /etc/default/tftpd-hpa
 TFTP_USERNAME="tftp"
 TFTP_DIRECTORY="/srv/tftp"
 TFTP_ADDRESS=":69"
+TFTP_OPTIONS="--secure"
 EOF
 
 systemctl restart tftpd-hpa
